@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("image.jpg");
+}
+.nav{
+    background-color: #333;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.nav-links img{
+    top: 0.35px;
+   right: 18px;
+   position: relative;
+   width: 90px;
+   height: 90px;
+   border-radius: 150px;
+   
+    
+}
+
+
+.nav-links{
+    list-style: none;
+    display: flex;
+
+}
+.nav-links h1{
+    margin-right: 20px;
+    color: green;
+    background-color: grey;
+}
+.nav-links span{
+    color: rgb(240, 0, 0);
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+   margin: 10px;
+   padding: 15px;
+   top: 10px;
+   border-radius: 100px;
+   box-shadow: 0 0 10px red;
+   font-size: 0.9rem;
+
+}
+.nav-links a.active{
+    background-color: blue;
+}
+.nav-links a:hover{
+    color: white;
+    background-color: blue;
+    
+}
+
+
+.content{
+    text-align: center;
+    padding: 100px;
+    position: relative;
+    top: 3px;
+    color: white;
+    background-color: transparent;
+    right: 10px;    
+
+
+}
+.content span{
+    color: white;
+    background-color: red;
+
+    
+}
+
+.ifoto img{
+   cursor: pointer;
+   right: 2px;
+   position: relative;
+   border-radius: 120px;
+   top: 0px;
+   height: 100px;
+   font-weight: 100px;
+   margin: 8px;
+   transition: transform 0.1s ease;
+   box-shadow: 0 0 10px red;
+  
+   
+   
+   
+}
+
+
+.ifoto:hover img{
+    transform: translateX(50px);
+    transform:  scale(1.1);
+
+
+}
+.ifoto:hover .overlay{
+    opacity: 1;
+}
+
+
+@media  (max-width:991px) {
+    .html{
+        font-size: 45%;
+    }
+}
+    @media  (max-width:191px) {
+    .nav-links{
+        display: none;
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        background: #fff;
+        border-top: 1rem solid rgba(0, 0, 0, .2);
+    }
+}
+    
+    .content{
+        padding: 20px;
+
+    }
+    .nav-active .nav-links{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color:black;
+        transition: all 0.5s ease;
+
+    }
+    .nav-active .nav-links li{
+        margin-right: 0;
+        
+    }
+    }
+    .footer{
+        background-color: black;
+        height: 110px;
+        
+    }
+    .footer h1{
+        color: red;
+       text-align: center;
+       background-color: navy;
+       font-family: 'Courier New', Courier, monospace;
+       transition: all 5sec ease-in;
+       cursor: copy;
+       text-transform: capitalize;
+       text-decoration-skip-ink:all;
+        
+    }
+    .content h1 span{
+        color: red;
+        background-color: rgb(0, 60, 255);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .h h1{
+        text-align: center;
+        color: #fff;
+       
+        box-shadow: red;
+    }
+    .h a{
+        text-align: center;
+        color: red;
+        left: 650px;
+       
+        position: relative;
+       
+    }
+    .h span{
+        color: red;
+        background-color: rgb(0, 60, 255);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .sign{
+        max-width: 430px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        color: white;
+        top: 100px;
+        position: relative;
+       
+    }
+
+    .sign h1{
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: wheat;
+        background-color: red;
+       
+    }
+
+.form-group{
+    margin-bottom: 20px;
+   
+   
+
+}
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group[type="text"],
+input[type="email"],
+input[type="password"],{
+  width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: red;
+
+}
+
+.group button{
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    left: 30px;
+    position: relative;
+
+}
+.form-group button:hover{
+    background-color: #4caf50;
+}
+.form button{
+    background-color: blue;
+    color: white;
+    cursor: cell;
+}
+.icons{
+    color: white;
+}
+
+    
+
+       
+    
+        
+    
+    
+

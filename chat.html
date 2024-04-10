@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+
+<style>
+    .chat-container{
+    max-width: 1000em;
+    margin: 2000000px auto;
+    border: 1000px solid #ccc;
+    border-radius: 10px;
+    padding: 100px;
+    background-color: white;
+   height: 600px;
+   top: 1000px;
+   
+   
+
+}
+.chat-box{
+  height: 300px;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+  color: red;
+  
+}
+.chat-message{
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: red;
+    
+
+
+}
+
+.received{
+    background-color: #f0f0f0;
+    text-align: right;
+    
+}
+.sent{
+    background-color: #2ef3e7;
+    text-align: right;
+}
+#user-input{
+    width: calc(100%-75px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 5px 0;
+    background-color: hwb(0 97% 3%);
+    color: #fff;
+    cursor: pointer;
+    
+}
+body{
+    background-color: rgb(27, 19, 19);
+}
+</style>
+</head>
+<body>
+    
+    <div class="chat-container">
+        <div class="chat-box">
+            <div class="chat-message received">
+                <p>Hello! how can i assit you to day</p>
+        </div>
+        <div class="chat-message sent">
+            <p> I  have a question about your products.</p>
+
+    </div>
+    <!--more chat messages can be added dynamically-->
+
+    </div>
+    <input type="text" id="user-input" placeholder="type your message here.....">
+    <button id="send-btn">Send</button>
+    <script src="script.js"></script>
+    <link rel="stylesheet"  href="chat.css">
+</body>
+</html>
